@@ -1,0 +1,5 @@
+Explanation of the files below:
+
+gt_GRN.csv: Ground-truth gene regulatory network, used to simulate data via SERGIO (repo: https://github.com/PayamDiba/SERGIO, paper: https://www.sciencedirect.com/science/article/pii/S2405471220302878)
+Regs_cID_8.txt: "Master regulators" (nodes that drive the cell type differences) and their Hill coefficients for each cell type
+SERGIO_2cType_100genes_1000cells_simulated_clean.npy: Simulated scRNA-seq data. 100 genes and 2000 cells. The first 1000 are Cell Type 1, the next 1000 are Cell Type 2.
